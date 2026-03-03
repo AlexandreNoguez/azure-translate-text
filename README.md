@@ -26,8 +26,8 @@ Ideal para transformar artigos e documentação pública em `.md` traduzidos, pr
 ### 1) Clonar o repositório
 
 ```bash
-git clone <SEU_REPO.git>
-cd <SEU_REPO>
+git clone http://github.com/AlexandreNoguez/azure-translate-text
+cd azure-translate-text
 ```
 
 ### 2) Criar ambiente virtual (opcional, mas recomendado)
@@ -79,7 +79,7 @@ O script principal é `translate_page.py`.
 ### Tradução básica
 
 ```bash
-python translate_page.py --url "https://exemplo.com/artigo" --to pt
+python script.py --url "https://exemplo.com/artigo" --to pt
 ```
 
 Isso vai gerar um arquivo `translated.pt.md` no diretório atual.
@@ -95,5 +95,3 @@ python translate_page.py --url "https://exemplo.com/artigo" --to pt --out artigo
 ```bash
 python translate_page.py --url "https://exemplo.com/artigo" --to pt --save-original
 ```
-
-Isso
